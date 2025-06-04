@@ -84,4 +84,4 @@ const Index = () => {
       </main>
     </div>;
 };
-export default /Index;
+export default Index;
