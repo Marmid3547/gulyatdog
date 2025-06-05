@@ -5,15 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>paw-pal-adventures</title>
   <script>
-    // Store the current path for client-side routing
-    sessionStorage.redirect = location.pathname.slice('/gulyatdog'.length) + location.search + location.hash;
+    // Redirect to index.html for client-side routing
+    sessionStorage.redirect = location.href;
   </script>
   <meta http-equiv="refresh" content="0;URL='/gulyatdog/'">
 </head>
 <body>
   <script>
-    // Redirect to the main app
-    window.location.replace('/gulyatdog/');
+    window.location.href = '/gulyatdog/';
   </script>
 </body>
 </html>
